@@ -11,12 +11,13 @@ public class DataService : ISprint3Task2V7
         // Цикл do...while от startValue до stopValue
         do
         {
-            double term = k + (1.0 / Math.Pow(k, 2)); // k + 1/k²
+            double sinK = Math.Sin(k);
+            double term = Math.Pow(1.0 / sinK, 2); // (1/sin(k))²
             sum += term;
             k++;
         }
         while (k <= stopValue);
 
-        return Math.Round(sum, 3);
+        return Math.Round(sum, 3); ;
     }
 }
