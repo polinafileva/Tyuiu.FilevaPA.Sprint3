@@ -11,7 +11,7 @@ public class DataService : ISprint3Task2V7
         // Цикл do...while от startValue до stopValue
         do
         {
-            double term = Math.Sin(1.0 / Math.Pow(k, 2));
+            double term = k + (1.0 / Math.Pow(k, 2)); // k + 1/k²
             sum += term;
             k++;
         }
