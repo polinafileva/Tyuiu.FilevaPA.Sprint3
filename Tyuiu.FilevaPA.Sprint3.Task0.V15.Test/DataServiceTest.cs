@@ -124,5 +124,6 @@ public sealed class DataServiceTest
         Assert.IsFalse(double.IsNaN(result));
         Assert.IsFalse(double.IsInfinity(result));
         Assert.AreNotEqual(0, result);
-    }
+    } 
 }
+
