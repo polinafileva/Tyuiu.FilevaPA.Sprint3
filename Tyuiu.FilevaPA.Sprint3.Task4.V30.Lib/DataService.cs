@@ -7,20 +7,16 @@ public class DataService : ISprint3Task4V30
         double sum = 0;
         int x = startValue;
 
-        // Цикл while от startValue до stopValue
         while (x <= stopValue)
         {
-            // Пропускаем x = 0
             if (x == 0)
             {
                 x++;
                 continue;
             }
 
-            // Вычисляем y = sin(x)/x
             double y = Math.Sin(x) / x;
             sum += y;
-
             x++;
         }
 

@@ -38,7 +38,6 @@ internal class Program
 
         Console.WriteLine($"Сумма значений функции = {result}");
 
-        // Детальный вывод каждого значения
         Console.WriteLine();
         Console.WriteLine("Детальный расчет:");
         Console.WriteLine("x\t\ty = sin(x)/x");
